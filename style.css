@@ -1,8 +1,7 @@
-@import url("https://fonts.googleapis.com/css?family=Work+Sans:400,600");
 body {
   margin: 0;
   background: #222;
-  font-family: sans-serif;
+  font-family: arial;
   font-weight: 800;
 }
 
@@ -44,9 +43,8 @@ nav li {
 }
 
 nav a {
-  color: #4786a1;
+  color: #444;
   text-decoration: none;
-  text-transform: uppercase;
   font-size: 14px;
 }
 
@@ -69,24 +67,24 @@ nav a::before {
 nav a:hover::before {
   width: 100%;
 }
-.card {
-font-family: Helvetica;
-  margin-right: auto;
-  margin-top: auto;
-  margin-bottom: auto;
-  width: 600px;
-  border-radius: 18px;
-  background: green;
-  box-shadow: 5px 5px rgba(0,0,0,0.9);
-}
 .cardmid {
-font-family: Helvetica;
+  font-family: arial;
   margin-right: auto;
   margin-top: auto;
   margin-bottom: auto;
   margin-left: auto;
-  width: 600px;
+  width: auto;
   border-radius: 18px;
-  background: green;
-  box-shadow: 5px 5px rgba(0,0,0,0.9);
+  background: white;
+}
+.shopcard {
+margin: auto;
+width: 230px;
+height: 300px;
+background: white;
+border-radius: 15px;
+text-align: center;
+}
+.shopcard img {
+  margin: auto;
 }
