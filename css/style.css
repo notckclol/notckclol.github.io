@@ -3,7 +3,7 @@ html {
 }
 body {
   margin: 0;
-  background: linear-gradient(159deg,rgba(224,18,216,1)0%, rgba(217,13,13,1) 97%);
+  background: linear-gradient(159deg,rgba(1,2,4,1)0%, rgba(7,58,58,18) 97%);
   font-family: arial;
   font-weight: 800;
   height: 100%;
@@ -12,51 +12,7 @@ body {
   background-attachment: fixed;
 }
 
-.container {
-  width: 80%;
-  margin: 0 auto;
-}
-
-
-
-header::after {
-  content: '';
-  display: table;
-  clear: both;
-}
-
-.logo {
-  float: left;
-  padding: 10px 0;
-  font-size: 23px;
-}
-
-nav {
-  float: right;
-}
-
-nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-nav li {
-  display: inline-block;
-  margin-left: 70px;
-  padding-top: 23px;
-  position: relative;
-}
-
-nav a {
-  text-decoration: none;
-  font-size: 14px;
-}
-
-
-nav a::before {
-  content: '';
-  display: block;
+.block;
   height: 5px;
   position: absolute;
   top: 0;
