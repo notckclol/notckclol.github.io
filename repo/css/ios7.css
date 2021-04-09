@@ -4,6 +4,11 @@ hr,
 input {
     overflow: visible
 }
+img {
+    text-align: center;
+    width: 250px;
+    height: 250px;
+}
 
 audio,
 canvas,
