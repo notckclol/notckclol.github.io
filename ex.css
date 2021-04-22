@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 body {
+font-family: Roboto, Arial;
 text-align: center;
 background: rgb(80,106,255);
 background: linear-gradient(90deg, rgba(80,106,255,1) 0%, rgba(0,212,255,1) 100%);
@@ -33,7 +34,6 @@ border-radius: 10px;
 display: block;
 }
 h1 {
-font-family: Roboto, Arial;
 text-align: center;
 }
 .div {
@@ -44,5 +44,19 @@ text-align: center;
   color: black;
 }
 h2 {
-  font-family: Roboto;
+  
+}
+input {
+  text-align: center;
+  outline: none;
+  border-bottom: 2px solid #27455e;
+}
+.submit {
+  text-align: center;
+  border-radius: 20px;
+  border: 2px solid #27435e;
+}
+.inv {
+  z-index: 0;
+  display: none;
 }
