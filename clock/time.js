@@ -6,5 +6,5 @@ ctz.setMonth(7);
 ctz.setDate(12);
 ctz.setHours(9);
 ctz.setMinutes(34); 
-ctz.detSeconds(11);
+ctz.setSeconds(11);
 export { ctz };
