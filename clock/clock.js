@@ -10,10 +10,12 @@ function getTimezoneName() {
         timezone = jstz.determine()
         return timezone.name();
     }
+setInterval(() => {
 let h = ctz.getHours() * 30;
 let m = ctz.getMinutes() * deg;
 let s = ctz.getSeconds() * deg;
 
-hr.style.transform = ``;
-mi.style.transform = ``;
-se.style.transform = ``;
+hr.style.transform = `rotateZ(${(hr)*(mm/12(}deg)`;
+mi.style.transform = `rotateZ(${mi}*deg)`;
+se.style.transform = `rotateZ(${se}*deg)`;
+})
