@@ -6,6 +6,10 @@ background: rgb(80,106,255);
 background: linear-gradient(90deg, rgba(80,106,255,1) 0%, rgba(0,212,255,1) 100%);
 }
 
+:root {
+--gradient: linear-gradient(90deg, rgba(180,33,169,1) 0%, rgba(149,18,83,1) 100%);
+}
+
 .a{
 background-image: linear-gradient(90deg, rgba(61,89,59,1) 0%, rgba(60,171,28,1) 100%);
 width: 100px;
@@ -59,4 +63,10 @@ input {
 .inv {
   z-index: 0;
   display: none;
+}
+.card h2{
+  border: 2px solid var(--gradient);
+  border-radius: 50%;
+  padding: auto;
+  mrgin: auto;
 }
