@@ -3,9 +3,9 @@
 
 import { ctz } from './time.js'
 const deg = 6;
-const hr = document.querySelector('#hr');
-const mi = document.querySelector('#mi');
-const se = document.querySelector('#se');
+const hr = document.querySelector('#h');
+const mi = document.querySelector('#m');
+const se = document.querySelector('#s');
 function getTimezoneName() {
         timezone = jstz.determine()
         return timezone.name();
