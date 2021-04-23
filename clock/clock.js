@@ -2,8 +2,18 @@
 // his website is at https://ckclol.github.io
 
 import { ctz } from './time.js'
-
+const deg = 6;
+const hr = document.querySelector('#hr');
+const mi = document.querySelector('#mi');
+const se = document.querySelector('#se');
 function getTimezoneName() {
         timezone = jstz.determine()
         return timezone.name();
     }
+let h = ctz.getHours() * 30;
+let m = ctz.getMinutes() * deg;
+let s = ctz.getSeconds() * deg;
+
+hr.style.transform = ``;
+mi.style.transform = ``;
+se.style.transform = ``;
