@@ -67,6 +67,7 @@ input {
 .card{
   border: 2px solid var(--gradient);
   border-radius: 50%;
+  max-width: 100px;
   padding: auto;
   margin: auto;
 }
