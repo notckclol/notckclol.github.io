@@ -7,3 +7,4 @@ ctz.setDate(12);
 ctz.setHours(9);
 ctz.setMinutes(34); 
 ctz.detSeconds(11);
+export { ctz };
